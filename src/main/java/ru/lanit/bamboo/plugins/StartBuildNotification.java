@@ -40,6 +40,10 @@ public class StartBuildNotification extends AbstractNotification {
         return templateRenderer.render("StartBuildNotificationEmailSubject.ftl", context);
     }
 
+    public String getHtmlImContent() {
+        return templateRenderer.render("StartBuildNotificationHtmlIm.ftl", context);
+    }
+
     public String getIMContent() {
         return templateRenderer.render("StartBuildNotificationIm.ftl", context);
     }

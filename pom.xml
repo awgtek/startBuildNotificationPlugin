@@ -14,7 +14,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.lanit.bamboo.plugins</groupId>
     <artifactId>start-build-notification</artifactId>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
 
     <name>Start Build Notification Plugin</name>
 
@@ -22,8 +22,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <atlassian.plugin.key>ru.lanit.bamboo.plugins.startBuildNotification</atlassian.plugin.key>
 
-        <bamboo.version>4.2</bamboo.version>
-        <bamboo.data.version>3.2.2</bamboo.data.version>
+        <bamboo.version>5.14.0</bamboo.version>
+        <bamboo.data.version>5.14.0</bamboo.data.version>
     </properties>
 
     <dependencies>
@@ -69,7 +69,7 @@
             <plugin>
                 <groupId>com.atlassian.maven.plugins</groupId>
                 <artifactId>maven-bamboo-plugin</artifactId>
-                <version>3.4</version>
+                <version>6.2.6</version>
                 <extensions>true</extensions>
                 <configuration>
                     <productVersion>${bamboo.version}</productVersion>
